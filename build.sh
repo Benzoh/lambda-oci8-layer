@@ -15,4 +15,4 @@ docker cp $1:/tmp/ext.ini ./export/opt/bref/etc/php/conf.d/ext-oci8.ini
 
 cd ./export
 
-zip -r dest/oci8.zip ./opt
+zip -r ../dest/oci8.zip ./opt
