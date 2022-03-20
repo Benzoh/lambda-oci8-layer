@@ -10,3 +10,8 @@ $ docker run -itd lambda-oci8-layer
 ```
 $ sh build.sh <YOUR_CONTAINER_NAME>
 ```
+
+## ARN
+
+`arn:aws:lambda:ap-northeast-1:387597514301:layer:php-oci8-layer:1`
+

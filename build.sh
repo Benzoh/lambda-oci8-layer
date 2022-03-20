@@ -13,4 +13,6 @@ docker cp $1:/tmp/libociicus.so ./export/opt/lib/libociicus.so
 docker cp $1:/tmp/oci8.so ./export/opt/bref-extra/oci8.so
 docker cp $1:/tmp/ext.ini ./export/opt/bref/etc/php/conf.d/ext-oci8.ini
 
-zip -r dest/oci8.zip /opt
+cd ./export
+
+zip -r dest/oci8.zip ./opt
