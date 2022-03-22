@@ -13,5 +13,5 @@ $ sh build.sh <YOUR_CONTAINER_NAME>
 
 ## ARN
 
-`arn:aws:lambda:ap-northeast-1:387597514301:layer:lambda-oci8-layer:1`
+`arn:aws:lambda:ap-northeast-1:387597514301:layer:lambda-oci8-layer:3`
 
